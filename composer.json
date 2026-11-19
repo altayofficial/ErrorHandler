@@ -1,5 +1,5 @@
 {
-    "name": "pocketmine/errorhandler",
+    "name": "altayofficial/errorhandler",
     "description": "Utilities to handle nasty PHP E_* errors in a usable way",
     "type": "library",
     "license": "LGPL-3.0",
@@ -10,6 +10,9 @@
         "phpstan/phpstan": "2.1.33",
         "phpstan/phpstan-strict-rules": "^2.0",
         "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
+    },
+    "replace": {
+        "pocketmine/errorhandler": "self.version"
     },
     "autoload": {
         "psr-4": {
